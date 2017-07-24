@@ -1,7 +1,8 @@
-.about{
+.about {
   font-family: 'Artifika', serif;
 }
-.mainpanel{
+
+.mainpanel {
   background-image: url("/assets/images/office1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -9,4 +10,42 @@
   background-attachment: fixed;
   color: white;
   font-size: 29px;
+}
+
+#head {
+  background-image: url("/assets/images/office3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  color: black;
+  font-family: 'Artifika', serif;
+  margin-top: 0px;
+}
+
+.headtext {
+  padding-top: 200px;
+}
+
+.secondrow {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: 'Artifika', serif;
+}
+
+.payment {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bitcoin{
+  margin-top: 50px;
+}
+.welcome{
+font-family: 'Lobster', cursive;
 }
