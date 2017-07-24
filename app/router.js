@@ -11,7 +11,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('admin');
-  this.route('tile');
+  this.route('tile',{path: '/tile/:space_id'});
 });
 
 export default Router;
