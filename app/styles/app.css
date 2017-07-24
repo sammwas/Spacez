@@ -1,3 +1,12 @@
 .about{
   font-family: 'Artifika', serif;
 }
+.mainpanel{
+  background-image: url("/assets/images/office1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 29px;
+}
