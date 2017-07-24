@@ -1,0 +1,20 @@
+{
+  "name": "spaces",
+  "description": "Small description for spaces goes here",
+  "main": "",
+  "authors": [
+    "sammwas <samson.m.njuguna@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "^4.1.3"
+  }
+}

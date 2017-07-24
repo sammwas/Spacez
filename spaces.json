@@ -1,0 +1,15 @@
+{
+  "spaces":[{
+    "name": "Sandra",
+    "location": "Buruburu",
+    "description": "space for 10 to 15 people with free and secure internet",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYFVvQNbRkk--0CZm1QjayHmKi5LV3ptkujTvNiPbDf1yqIWEU",
+    "prices": "7000"
+
+  }],
+  "reviews":[{
+    "author":"Damaris",
+    "rating":"6",
+    "response":"convenient with an elegant serene"
+    }]
+}
