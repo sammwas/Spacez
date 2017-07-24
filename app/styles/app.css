@@ -48,4 +48,16 @@
 }
 .welcome{
 font-family: 'Lobster', cursive;
+font-size: 25px;
+}
+.footer-image{
+  width: 90px;
+  height:90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  background-color: black;
+  color: white;
 }

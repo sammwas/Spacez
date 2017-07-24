@@ -1,10 +1,55 @@
 <div class= "container-fluid">
-  <header class= "jumbotron">
-    <h1>Spaces</h1>
-  </header>
+<div class="row">
+  <div class="col-md-6">
+<h3 class="text-center welcome">
+  SPACEZ
+</h3>
+ </div>
+ <div class="col-md-6">
+   <h4 class="welcome">
+     Find a great space to work.
+   </h4>
+   <hr>
+   <h4 class="welcome">
+     Earn from utilizing your unused resources
+   </h4>
+
+ </div>
+
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SPACEZ</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li>{{#link-to 'index'}}HOME{{/link-to}}</li>
+      <li>{{#link-to 'about'}}ABOUT{{/link-to}}</li>
+      <li>{{#link-to 'contact'}}GET IN TOUCH{{/link-to}}</li>
+      <li>{{#link-to 'space'}}GET STARTED{{/link-to}}</li>
+    </ul>
+  </div>
+</nav>
     {{outlet}}
   <hr>
-  <footer>
-    {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
-  </footer>
+  <div class="row footer">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/14-128.png" class="footer-image img-responsive"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/6-128.png" class="footer-image img-responsive"/>
+      </div>
+      <div class="col-md-4">
+        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/1-128.png" class="footer-image img-responsive"/>
+      </div>
+    </div>
+    <div class="row">
+      <h4 class="text-center welcome">
+        © SPACEZ | All rights reserved
+      </h4>
+
+    </div>
+
+  </div>
 </div>
