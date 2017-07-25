@@ -1,0 +1,33 @@
+  <h2>Update Your Space</h2> 
+  <div class="well text-center">
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" placeholder=model.name size=60}}
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label>
+        {{input value=type id="location" placeholder=model.location size=60}}
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        {{input value=description id="description" placeholder=model.description size=60}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=image id="image" placeholder=model.image size=60}}
+      </div>
+
+      <div class="form-group">
+        <label for="price">Price</label>
+        {{input value=price id="price" placeholder=model.price size=60}}
+      </div>
+
+      <button class="btn btn-success" {{action 'update' model}}>Save</button>
+    </form>
+  </div>
+  </div>

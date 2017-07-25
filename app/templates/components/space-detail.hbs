@@ -15,8 +15,11 @@
          <div class="sub-header_title">
           <p>Facilities offered</p>
           </div>
-          <div class="panel panel-default">
+          <div class="reviews">
               <strong>Reviews</strong>
+                {{#each space.reviews as |review|}}
+                {{review-tile review=review}}
+                {{/each}}
           </div>
   </div>
   <div class="col-md-5">

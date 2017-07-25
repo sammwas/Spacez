@@ -1,8 +1,7 @@
-<div class="col-md-4">
-{{#link-to 'tile' space.id}}  
+<div class="col-md-4"> 
 <div class="panel panel-default">
     <div class="panel-heading">{{space.name}}</div>
-    <div class="panel-body"><img src={{space.image}} alt="space1" class="img-responsive"></div>
-    <div class="panel-footer"><button class="btn btn-danger btn-xs" {{action 'delete' space}}>Delete</button><button class="btn btn-primary btn-xs" {{action 'update'}}>Edit</button></div>
-  </div>{{/link-to}}
+    <div class="panel-body">{{#link-to 'tile' space.id}}<img src={{space.image}} alt="space1" class="img-responsive">{{/link-to}}</div>
+    <div class="panel-footer"><button class="btn btn-danger btn-xs" {{action 'delete' space}}>Delete</button>{{#link-to 'edit' space.id}}<button class="btn btn-primary btn-xs">Edit</button>{{/link-to}}</div>
+  </div>
 </div>
