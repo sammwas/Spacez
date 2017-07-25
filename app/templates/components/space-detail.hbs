@@ -1,28 +1,25 @@
-<div class="row">
-  <div class="space1 img-responsive">
-      {{space.name}}<br>
-      {{space.description}}
-      {{space.price}}
-  </div>
+<div class="row dynamic-row">
+  <h1 class="text-center welcome workspacename">{{space.name}}</h1>
 </div>
 <div class="row">
-  <div class="col-md-7">
-      <strong>About this workspace</strong>
-      <p>Are you bored of the traditional office setting check out this workspace where 
-          you can interact,network and get inspired to do some of your best work.One very 
-          important thing is that you do not have to break the bank.The stations are as
-          cheap as they come. </p><br>
-         <div class="sub-header_title">
-          <p>Facilities offered</p>
-          </div>
-          <div class="reviews">
-              <strong>Reviews</strong>
-                {{#each space.reviews as |review|}}
-                {{review-tile review=review}}
-                {{/each}}
-          </div>
+  
+  <div class="col-md-2">
+    <h2 class="text-center about">About the space</h2>
+    <p class="about text-center">{{space.description}}</p>
+    <h2 class="text-center about">Prices</h2>
+    <p class="about text-center">KSH{{space.price}}</p>
+    <h2 class="text-center about">Location</h2>
+    <p class="about text-center">{{space.location}}</p>
+    <div class="reviews">
+        <strong>Reviews</strong>
+          {{#each space.reviews as |review|}}
+          {{review-tile review=review}}
+          {{/each}}
+    </div>
   </div>
-  <div class="col-md-5">
-     <strong>Photos</strong>
+  <div class="col-md-10">
+      <h2 class="text-center about">photos of the work-spaces</h2>
+    <img src={{space.image}} alt="space1" class="img-responsive detail-image">
+
   </div>
 </div>
