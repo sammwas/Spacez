@@ -10,9 +10,11 @@ export default Ember.Route.extend({
 
       var newSpace = this.store.createRecord('space',params);
       newSpace.save();
-      this.transitionTo('space');
-      
-      
-    }
+      this.transitionTo('space');  
+    },
+   delete(space){
+     space.destroyRecord();
+     this.transitionTo('space');
+   }, 
   }
 });

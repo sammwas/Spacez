@@ -7,7 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('space');
+  this.route('space',function(){
+     this.route('edit', { path: '/:edit_id' });
+  });
   this.route('about');
   this.route('contact');
   this.route('admin');
