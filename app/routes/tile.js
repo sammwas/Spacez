@@ -12,7 +12,6 @@ export default Ember.Route.extend({
              newReview.save().then(function() {
              return space.save();
            });
-      this.transitionTo('space',space);
     }
     }
 });
