@@ -91,23 +91,20 @@ font-size: 25px;
   font-size: 40px;
 }
 .first-row{
-background-image: url("/assets/images/laptop.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-origin:inherit;
-height: 300px;
-color: white;
+
+color: black;
+
 }
 .intro{
   margin-top: 130px;
 }
 .belief{
   font-size: 23px;
+  color: 	#FF4500;
 }
 .homeimage{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -118,8 +115,8 @@ color: white;
 }
 .featured{
   margin-top: 20px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .featureimage{
   display: block;
@@ -127,4 +124,7 @@ color: white;
   margin-right: auto;
   width:300px;
   height: 300px;
+}
+.host{
+  font-size: 20px;
 }

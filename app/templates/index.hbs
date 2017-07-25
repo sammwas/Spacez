@@ -1,25 +1,24 @@
-<div class="row first-row">
-  <div class="col-md-6">
-    <h4 class="about intro">
+<div class="row first-row well">
+  <h2 class="welcome intro text-center">
+    <strong>SPACEZ</strong>....a revolutionary way to get workspaces around you
+  </h2>
+
+    <h4 class="about intro text-center">
       GET CONNECTED TO WORKSPACES AROUND YOU
     </h4>
-    <hr>
-    <h4 class="about">
+
+    <h4 class="about text-center">
       FORGET THE HUSTLE THAT COMES WITH BEING A REMOTE WORKER
     </h4>
 
-  </div>
-  <div class="col-md-6">
-    <h2 class="welcome intro">
-      <strong>SPACEZ</strong>....a revolutionary way to get workspaces around you
-    </h2>
-
-  </div>
 </div>
+<hr>
+<hr>
+<div class="mainpage">
 <div class="row second-row">
   <div class="col-md-6">
     <p class="about text-center belief">
-      we believe that ensuring that<br> remote workers and students have a platform<br> that seamlessly automates the booking process will<br>lead to increasing their output
+      We believe in ensuring that<br> remote workers and students have a platform<br> that seamlessly automates the booking process will<br>lead to increasing their output
     </p>
 
   </div>
@@ -74,7 +73,7 @@
 </div>
 <div class="row third-row">
   <div class="col-md-6">
-    <p class="about">
+    <p class="about host">
       Become a host through listing <br> your property for use by <br>our community of creatives and earn money
     </p>
   </div>
@@ -99,13 +98,14 @@
   </div>
 
 </div>
+</div>
 <div class="row featured">
-  <h1 class="text-center about">featured spaces</h1>
+  <h1 class="text-center about">FEATURED WORKSPACES</h1>
   {{#each model as |space|}}
-  <div class=" col-md-6 well featuredcol">
+  <div class=" col-lg-6 featuredcol">
     {{#link-to 'tile' space.id}}
   <h2 class="text-center about">{{space.name}}</h2>
-  <img src={{space.image}} class="img-responsive featureimage"/>
+  <img src={{space.image}} class="img-responsive featureimage img-rounded"/>
   {{/link-to}}
 </div>
   {{/each}}
