@@ -99,3 +99,15 @@
   </div>
 
 </div>
+<div class="row featured">
+  <h1 class="text-center about">featured spaces</h1>
+  {{#each model as |space|}}
+  <div class=" col-md-6 well featuredcol">
+    {{#link-to 'tile' space.id}}
+  <h2 class="text-center about">{{space.name}}</h2>
+  <img src={{space.image}} class="img-responsive featureimage"/>
+  {{/link-to}}
+</div>
+  {{/each}}
+
+</div>
