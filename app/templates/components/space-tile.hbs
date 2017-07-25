@@ -1,0 +1,8 @@
+<div class="col-md-4">
+{{#link-to 'tile' space.id}}  
+<div class="panel panel-default">
+    <div class="panel-heading">{{space.name}}</div>
+    <div class="panel-body"><img src={{space.image}} alt="space1" class="img-responsive"></div>
+    <div class="panel-footer"><button class="btn btn-danger btn-xs" {{action 'delete' space}}>Delete</button><button class="btn btn-primary btn-xs" {{action 'update'}}>Edit</button></div>
+  </div>{{/link-to}}
+</div>

@@ -24,7 +24,7 @@ module.exports = function(environment) {
     authDomain: "spaces-project-832d0.firebaseapp.com",
     databaseURL: "https://spaces-project-832d0.firebaseio.com",
     projectId: "spaces-project-832d0",
-    storageBucket: "",
+    storageBucket: "spaces-project-832d0.appspot.com",
     messagingSenderId: "1038278394747"
      },
 

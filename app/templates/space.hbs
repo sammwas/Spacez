@@ -1,1 +1,7 @@
 <h2>Checkout the Following Spaces</h2>
+<div class="row">
+{{#each model as |space|}}
+{{space-tile space=space delete='delete'}}
+{{/each}}
+</div>
+{{new-space saveSpace="saveSpace"}}
