@@ -17,22 +17,23 @@
 
 
 
-    <div class="reviews">
-        <strong>Reviews</strong>
-          {{#each space.reviews as |review|}}
-          {{review-tile review=review}}
-          {{/each}}
+
+    <strong>Reviews</strong>
+    <div class="reviews well row">
+      {{#each space.reviews as |review|}}
+        {{review-tile review=review}}
+      {{/each}}
     </div>
   </div>
   <div class="col-md-8">
-      <h2 class="text-center about">PHOTOS OF THE WORKSPACE</h2>
-    <img src={{space.image}} alt="space1" class="img-responsive detail-image">
+    <h2 class="text-center about">PHOTOS OF THE WORKSPACE</h2>
+    <img src= {{space.image}} alt="space1" class="img-responsive detail-image">
 
   </div>
 </div>
 <div class="row">
   <h2 class="welcome">SEATS BOOKED</h2>
   {{#each space.bookings as |booking|}}
-  <h2>{{booking.reserve}}</h2>
+    <h2>{{booking.reserve}}</h2>
   {{/each}}
 </div>
