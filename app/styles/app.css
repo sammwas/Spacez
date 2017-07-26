@@ -3,13 +3,13 @@
 }
 
 .mainpanel {
-  background-image: url("/assets/images/office1.jpg");
+  background-image: url("https://images.pexels.com/photos/16347/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
-  font-size: 29px;
+  color: black;
+  font-size: 25px;
 }
 
 #head {
@@ -115,8 +115,7 @@ color: black;
 }
 .featured{
   margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  
 }
 .featureimage{
   display: block;

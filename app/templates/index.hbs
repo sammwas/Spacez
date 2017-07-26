@@ -1,4 +1,4 @@
-<div class="row first-row well">
+<div class="row first-row">
   <h2 class="welcome intro text-center">
     <strong>SPACEZ</strong>....a revolutionary way to get workspaces around you
   </h2>
@@ -102,7 +102,7 @@
 <div class="row featured">
   <h1 class="text-center about">FEATURED WORKSPACES</h1>
   {{#each model as |space|}}
-  <div class=" col-lg-6 featuredcol">
+  <div class=" col-md-4 featuredcol">
     {{#link-to 'tile' space.id}}
   <h2 class="text-center about">{{space.name}}</h2>
   <img src={{space.image}} class="img-responsive featureimage img-rounded"/>
