@@ -12,6 +12,16 @@ export default Ember.Route.extend({
              newReview.save().then(function() {
              return space.save();
            });
-    }
+    },
+    saveBooking(params) {
+           var newReservation = this.store.createRecord('booking', params);
+           var space = params.space;
+           space.get('bookings').addObject(newReservation);
+           newReservation.save().then(function() {
+           return space.save();
+         });
+  },
+
+
     }
 });

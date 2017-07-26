@@ -115,7 +115,7 @@ color: black;
 }
 .featured{
   margin-top: 20px;
-  
+
 }
 .featureimage{
   display: block;
@@ -126,4 +126,8 @@ color: black;
 }
 .host{
   font-size: 20px;
+}
+.spaceimage{
+  height: 200px;
+  width: 300px;
 }

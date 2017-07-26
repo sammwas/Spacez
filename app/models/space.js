@@ -6,5 +6,7 @@ export default DS.Model.extend({
     description: DS.attr(),
     image: DS.attr(),
     price: DS.attr('number'),
-    reviews:DS.hasMany('review',{async:true})
+    seat: DS.attr('number'),
+    reviews:DS.hasMany('review',{async:true}),
+    bookings:DS.hasMany('booking',{async:true})
 });
