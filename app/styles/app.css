@@ -76,3 +76,45 @@ font-size: 25px;
   margin: 200px;
 >>>>>>> a3307ed3a729b76761f29f997be311277d178c0e
 }
+.detail-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dynamic-row{
+  background-image: url("/assets/images/office4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.workspacename{
+  margin-top: 260px;
+  font-size: 40px;
+}
+.first-row{
+background-image: url("/assets/images/laptop.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-origin:inherit;
+height: 300px;
+color: white;
+}
+.intro{
+  margin-top: 130px;
+}
+.belief{
+  font-size: 23px;
+}
+.homeimage{
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second-row{
+  padding-top: 20px;
+}

@@ -7,7 +7,6 @@ export default Ember.Route.extend({
 
   actions:{
     saveSpace(params){
-
       var newSpace = this.store.createRecord('space',params);
       newSpace.save();
       this.transitionTo('space');  
@@ -16,5 +15,6 @@ export default Ember.Route.extend({
      space.destroyRecord();
      this.transitionTo('space');
    }, 
+
   }
 });
