@@ -1,6 +1,8 @@
 
 .about {
   font-family: 'Artifika', serif;
+  font-size:20px;
+
 }
 
 .mainpanel {
@@ -49,7 +51,7 @@
 }
 .welcome{
 font-family: 'Lobster', cursive;
-font-size: 25px;
+font-size: 15px;
 }
 .footer-image{
   width: 90px;
@@ -59,8 +61,8 @@ font-size: 25px;
   margin-right: auto;
 }
 .footer{
-  background-color: black;
-  color: white;
+
+  color: black;
 }
 .contact-img{
   width: 70px;
@@ -74,7 +76,6 @@ font-size: 25px;
 }
 .contacts{
   margin: 200px;
->>>>>>> a3307ed3a729b76761f29f997be311277d178c0e
 }
 .detail-image{
   display: block;
@@ -93,7 +94,7 @@ font-size: 25px;
   font-size: 40px;
 }
 .first-row{
-background-image: url("/assets/images/laptop.jpg");
+background-image: url("http://mutqen.org/wp-content/uploads/2017/06/v-slider91.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -108,13 +109,23 @@ color: white;
   font-size: 23px;
 }
 .homeimage{
-  width: 80px;
-  height: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+
 }
 
 .second-row{
   padding-top: 20px;
+}
+.about-intro{
+  color:white;
+  font-size: 80px;
+  font-family: 'Alfa Slab One', cursive;
+
+}
+.tile{
+  padding: 5%;
+  background: #F1F1F1;
+  margin-bottom: 10px;
 }

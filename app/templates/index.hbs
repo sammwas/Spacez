@@ -1,101 +1,59 @@
-<div class="row first-row">
-  <div class="col-md-6">
-    <h4 class="about intro">
-      GET CONNECTED TO WORKSPACES AROUND YOU
+<div class="row first-row text-center">
+
+  <div class="row">
+
+
+    <h4 class="about-intro">
+      SPACEZ
     </h4>
-    <hr>
+  </div>
+
+  <div class="row">
+
+
     <h4 class="about">
-      FORGET THE HUSTLE THAT COMES WITH BEING A REMOTE WORKER
+    Looking for a workspace? We got you covered!
     </h4>
-
-  </div>
-  <div class="col-md-6">
-    <h2 class="welcome intro">
-      <strong>SPACEZ</strong>....a revolutionary way to get workspaces around you
-    </h2>
-
   </div>
 </div>
-<div class="row second-row">
-  <div class="col-md-6">
-    <p class="about text-center belief">
-      we believe that ensuring that<br> remote workers and students have a platform<br> that seamlessly automates the booking process will<br>lead to increasing their output
-    </p>
 
-  </div>
-  <div class="col-md-6">
-    <div class="row">
-      <img src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Power-512.png" class="img-responsive homeimage"/>
-      <p class="text-center belief about">no blackouts</p>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="https://png.icons8.com/internet/ios7/1600" class="img-responsive homeimage"/>
-        <p class="text-center belief about">forget data-caps</p>
 
-      </div>
-      <div class="col-md-6">
-        <img src="https://image.freepik.com/free-icon/chain-connection_318-40186.jpg" class="img-responsive homeimage"/>
-        <p class="text-center belief about">connect with others2</p>
-
-      </div>
-    </div>
-  </div>
-</div>
 <hr>
-<div class="row third-row well well-xs">
-  <div class="col-md-6">
-    <div class="col-md-4">
-      <img src="http://www.vodafone.com/content/dam/vodafone-images/media/m-pesa/m-pesa-logo.jpg" class="img-responsive homeimage"/>
-      <p class="text-center belief about">M-PESA</p>
-
+<div class="row featured">
+  <h1 class="text-center about">FEATURED WORKSPACES</h1>
+  {{#each model as |space|}}
+    <div class=" col-md-4 featuredcol">
+      {{#link-to 'tile' space.id}}
+        <h2 class="text-center about">{{space.name}}</h2>
+        <img src= {{space.image}} class="img-responsive featureimage img-rounded" />
+      {{/link-to}}
     </div>
-    <div class="col-md-4">
-      <img src="http://www.underconsideration.com/brandnew/archives/paypal_2014_logo_detail.png" class="img-responsive homeimage"/>
-      <p class="text-center belief about">PAYPAL</p>
-
-    </div>
-    <div class="col-md-4">
-      <img src="https://image.freepik.com/free-icon/bitcoin-btc_318-41696.jpg" class="img-responsive homeimage"/>
-      <p class="text-center belief about">BITCOIN</p>
-
-    </div>
-  </div>
-  <div class="col-md-6">
-  <h4 class="about intro2">
-    Pay at monthly,weekly or annually
-    according to how capable you are
-  </h4>
-  <h4 class="about intro2">
-    convenient payment platforms to suit
-    your lifestyle
-  </h4>
+  {{/each}}
 </div>
+<div class="row text-center">
+  <div class="col-md-6 col-md-offset-3">
+    <hr>
+    <button class="btn btn-success">MORE WORKSPACES</button>
+  </div>
 </div>
-<div class="row third-row">
-  <div class="col-md-6">
-    <p class="about">
-      Become a host through listing <br> your property for use by <br>our community of creatives and earn money
-    </p>
+
+<div class="row second-row text-center">
+  <div class="col-md-4">
+    <img src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Power-512.png" class="img-responsive homeimage"/>
+    <hr>
+    <p class="text-center belief about">no blackouts</p>
   </div>
+  <div class="col-md-4">
 
-  <div class="col-md-6">
-    <div class="col-md-4">
-      <img src="https://thumb1.shutterstock.com/display_pic_with_logo/1521500/147870803/stock-vector-free-registration-icon-vector-147870803.jpg" class="img-responsive homeimage"/>
-      <p class="text-center belief about">REGISTER YOUR PROPERTY</p>
-
-    </div>
-    <div class="col-md-4">
-      <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-icon-rounded-colored/512/icon-41-512.png" class="img-responsive homeimage"/>
-      <p class="text-center belief about">GET VERIFIED</p>
-
-    </div>
-    <div class="col-md-4">
-      <img src="http://www.oogazone.com/wp-content/uploads/hd-stock-vector-dollar-money-icon-with-bag-image.jpg" class="img-responsive homeimage"/>
-      <p class="text-center belief about">GET PAYING CLIENTS</p>
-
-    </div>
+    <img src="https://png.icons8.com/internet/ios7/1600" class="img-responsive homeimage"/>
+    <hr>
+    <p class="text-center belief about">forget data-caps</p>
 
   </div>
-
+  <div class="col-md-4">
+    <img src="https://image.freepik.com/free-icon/chain-connection_318-40186.jpg" class="img-responsive homeimage"/>
+    <hr>
+    <p class="text-center belief about">connect with others2</p>
+  </div>
+  <hr>
 </div>
