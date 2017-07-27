@@ -104,7 +104,11 @@ background-size: cover;
 background-origin:inherit;
 height: 300px;
 color: white;
+<<<<<<< HEAD
 >>>>>>> anita
+=======
+
+>>>>>>> muru
 }
 .intro{
   margin-top: 130px;
@@ -167,4 +171,12 @@ img{
     transform: scale(1.1);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> muru
 }
+.map-display {
+    height: 600px;
+    width: auto;
+  }

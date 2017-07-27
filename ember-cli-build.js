@@ -9,6 +9,8 @@ module.exports = function(defaults) {
       'importBootstrapCSS': true
     }
   });
+  app.import('bower_components/moment/moment.js')
+  app.import('vendor/gmaps.js');
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
