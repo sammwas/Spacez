@@ -2,24 +2,31 @@
   <h1 class="text-center welcome workspacename">{{space.name}}</h1>
 </div>
 <div class="row">
-  
-  <div class="col-md-2">
+
+  <div class="col-md-4">
     <h2 class="text-center about">About the space</h2>
     <p class="about text-center">{{space.description}}</p>
     <h2 class="text-center about">Prices</h2>
     <p class="about text-center">KSH{{space.price}}</p>
     <h2 class="text-center about">Location</h2>
     <p class="about text-center">{{space.location}}</p>
-    <div class="reviews">
-        <strong>Reviews</strong>
-          {{#each space.reviews as |review|}}
-          {{review-tile review=review}}
-          {{/each}}
-    </div>
-  </div>
-  <div class="col-md-10">
-      <h2 class="text-center about">photos of the work-spaces</h2>
-    <img src={{space.image}} alt="space1" class="img-responsive detail-image">
 
   </div>
+  <div class="col-md-8">
+    <h2 class="text-center about">photos of the work-spaces</h2>
+    <img src= {{space.image}} alt="space1" class="img-responsive detail-image">
+
+  </div>
+</div><br>
+
+
+<!-- amenities row display -->
+<div class="row well">
+  <div class="reviews">
+    <strong>Reviews</strong>
+    {{#each space.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </div>
+
 </div>

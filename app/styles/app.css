@@ -50,8 +50,10 @@
   margin-top: 50px;
 }
 .welcome{
-font-family: 'Lobster', cursive;
+font-family: cursive;
 font-size: 15px;
+padding-top:0px;
+padding-bottom: 10px;
 }
 .footer-image{
   width: 90px;
@@ -128,4 +130,34 @@ color: white;
   padding: 5%;
   background: #F1F1F1;
   margin-bottom: 10px;
+}
+.amenity-icon{
+  height:26px;
+  width:26px;
+}
+.amenities{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.basket{
+  padding-left: 120px;
+}
+img{
+  /* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
 }
