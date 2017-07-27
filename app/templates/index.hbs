@@ -35,7 +35,7 @@
 <div class="row text-center">
   <div class="col-md-6 col-md-offset-3">
     <hr>
-    <button class="btn btn-success">MORE WORKSPACES</button>
+    {{#link-to 'admin'}}<button class="btn btn-success">MORE WORKSPACES</button>{{/link-to}}
   </div>
 </div>
 <hr>
@@ -136,18 +136,4 @@
     <p class="text-center belief about">connect with others2</p>
   </div>
   <hr>
-</div>
-
-<div class="row featured">
-  <h1 class="text-center about">FEATURED WORKSPACES</h1>
-  {{#each model as |space|}}
-  <div class=" col-md-4 featuredcol">
-    {{space-cost space}}
-    {{#link-to 'tile' space.id}}
-  <h2 class="text-center about">{{space.name}}</h2>
-  <img src={{space.image}} class="img-responsive featureimage img-rounded"/>
-  {{/link-to}}
-</div>
-  {{/each}}
-
 </div>
