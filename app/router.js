@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('admin');
   this.route('tile',{path: '/tile/:space_id'});
   this.route('edit',{path: '/edit/:space_id'});
+  this.route('user');
 });
 
 export default Router;

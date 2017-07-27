@@ -1,55 +1,70 @@
-<div class= "container">
-<div class="row">
-  <div class="col-md-6">
-<h3 class="text-center welcome">
-  SPACEZ
-</h3>
- </div>
- <div class="col-md-6">
-   <h4 class="welcome">
-     Find a great space to work.
-   </h4>
-   <hr>
-   <h4 class="welcome">
-     Earn from utilizing your unused resources
-   </h4>
+<div class="container-fluid">
+  <nav class="navbar">
+    
+      <div class="navbar-header">
 
-</div>
+      </div>
+      <ul class="nav nav-pills">
+        <li class="active">
+          {{#link-to 'index'}}HOME{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'about'}}ABOUT US{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'contact'}}CONTACTS{{/link-to}}
+        </li>
+        <li>
+          {{#link-to 'space'}}ADD WORKSPACE{{/link-to}}
+        </li>
+      </ul>
 
-</div>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">SPACEZ</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li>{{#link-to 'index'}}HOME{{/link-to}}</li>
-      <li>{{#link-to 'about'}}ABOUT{{/link-to}}</li>
-      <li>{{#link-to 'contact'}}GET IN TOUCH{{/link-to}}</li>
-      <li>{{#link-to 'space'}}GET STARTED{{/link-to}}</li>
-    </ul>
-  </div>
-</nav>
-    {{outlet}}
+  </nav>
+  {{outlet}}
   <hr>
-  <div class="row footer">
-    <div class="row">
-      <div class="col-md-4">
-        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/14-128.png" class="footer-image img-responsive"/>
-      </div>
-      <div class="col-md-4">
-        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/6-128.png" class="footer-image img-responsive"/>
-      </div>
-      <div class="col-md-4">
-        <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/1-128.png" class="footer-image img-responsive"/>
-      </div>
+
+  <div class="row footer text-center">
+
+    <div class="col-md-4 tile">
+      <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/14-128.png" class="img-responsive homeimage" />
+
+
+      <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/6-128.png" class="img-responsive homeimage" />
+
+      <img src="https://cdn1.iconfinder.com/data/icons/social-vol-2-1/200/1-128.png" class=" img-responsive homeimage" />
     </div>
-    <div class="row">
-      <h4 class="text-center welcome">
+    <div class="col-md-4 tile">
+
+
+      <img src="http://www.vodafone.com/content/dam/vodafone-images/media/m-pesa/m-pesa-logo.jpg" class="img-responsive homeimage" />
+
+      <img src="http://www.underconsideration.com/brandnew/archives/paypal_2014_logo_detail.png" class="img-responsive homeimage" />
+
+
+      <img src="https://image.freepik.com/free-icon/bitcoin-btc_318-41696.jpg" class="img-responsive homeimage" />
+
+
+    </div>
+    <div class="col-md-4 tile">
+
+      <img src="https://thumb1.shutterstock.com/display_pic_with_logo/1521500/147870803/stock-vector-free-registration-icon-vector-147870803.jpg" class="img-responsive homeimage" />
+
+
+
+      <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-icon-rounded-colored/512/icon-41-512.png" class="img-responsive homeimage" />
+
+      <img src="http://www.oogazone.com/wp-content/uploads/hd-stock-vector-dollar-money-icon-with-bag-image.jpg" class="img-responsive homeimage" />
+
+    </div>
+
+
+
+    <div class="page-header">
+      <p class="text-primary"> <hr>
         © SPACEZ | All rights reserved
-      </h4>
+      </p>
 
-   </div>
+    </div>
 
- </div>
+  </div>
 </div>

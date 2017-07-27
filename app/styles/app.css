@@ -1,6 +1,8 @@
 
 .about {
   font-family: 'Artifika', serif;
+  font-size:20px;
+
 }
 
 .mainpanel {
@@ -48,8 +50,10 @@
   margin-top: 50px;
 }
 .welcome{
-font-family: 'Lobster', cursive;
-font-size: 25px;
+font-family: cursive;
+font-size: 15px;
+padding-top:0px;
+padding-bottom: 10px;
 }
 .footer-image{
   width: 90px;
@@ -59,8 +63,8 @@ font-size: 25px;
   margin-right: auto;
 }
 .footer{
-  background-color: black;
-  color: white;
+
+  color: black;
 }
 .contact-img{
   width: 70px;
@@ -74,7 +78,6 @@ font-size: 25px;
 }
 .contacts{
   margin: 200px;
->>>>>>> a3307ed3a729b76761f29f997be311277d178c0e
 }
 .detail-image{
   display: block;
@@ -94,8 +97,14 @@ font-size: 25px;
 }
 .first-row{
 
-color: black;
-
+background-image: url("http://mutqen.org/wp-content/uploads/2017/06/v-slider91.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-origin:inherit;
+height: 300px;
+color: white;
+>>>>>>> anita
 }
 .intro{
   margin-top: 130px;
@@ -105,31 +114,57 @@ color: black;
   color: 	#FF4500;
 }
 .homeimage{
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+
 }
 
 .second-row{
   padding-top: 20px;
 }
-.featured{
-  margin-top: 20px;
+
+
+.about-intro{
+  color:white;
+  font-size: 80px;
+  font-family: 'Alfa Slab One', cursive;
 
 }
-.featureimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:300px;
-  height: 300px;
+.tile{
+  padding: 5%;
+  background: #F1F1F1;
+  margin-bottom: 10px;
 }
-.host{
-  font-size: 20px;
+.amenity-icon{
+  height:26px;
+  width:26px;
 }
-.spaceimage{
-  height: 200px;
-  width: 300px;
+.amenities{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.basket{
+  padding-left: 120px;
+}
+img{
+  /* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
 }

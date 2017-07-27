@@ -5,7 +5,9 @@ export default Ember.Route.extend({
     return this.store.query('space', {
        orderBy: 'price',
        equalTo: 2000,
+
        limitToFirst: 3
+
 
     });
   }

@@ -10,26 +10,27 @@
     <p class="about text-center">KSH{{space.price}}</p>
     <h2 class="text-center about">Location</h2>
     <p class="about text-center">{{space.location}}</p>
-    <h2 class="text-center about">SEATS AVAILABLE</h2>
-
-    <p class="about text-center">{{space.seat}}</p>
 
 
-
-
-
-    <strong>Reviews</strong>
-    <div class="reviews well row">
-      {{#each space.reviews as |review|}}
-        {{review-tile review=review}}
-      {{/each}}
-    </div>
   </div>
   <div class="col-md-8">
-    <h2 class="text-center about">PHOTOS OF THE WORKSPACE</h2>
+    <h2 class="text-center about">photos of the work-spaces</h2>
     <img src= {{space.image}} alt="space1" class="img-responsive detail-image">
 
   </div>
+</div><br>
+
+
+
+<!-- amenities row display -->
+<div class="row well">
+  <div class="reviews">
+    <strong>Reviews</strong>
+    {{#each space.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </div>
+
 </div>
 <div class="row">
   <h2 class="welcome">SEATS BOOKED</h2>
@@ -37,4 +38,3 @@
     <h2>{{booking.reserve}}</h2>
   {{/each}}
 </div>
-
