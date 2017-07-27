@@ -12,9 +12,7 @@ export default Ember.Component.extend({
          space: this.get('space')
       };
       this.set('addBooking',false);
-      console.log("error1");
       this.sendAction('saveBooking',params);
-      console.log("error2");
     }
   }
 });
