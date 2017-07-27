@@ -132,6 +132,6 @@ color: black;
   width: 300px;
 }
 .map-display{
-  width: 700px;
-  height: 1000px;;
+  width: auto;
+  height: 500px;;
 }
