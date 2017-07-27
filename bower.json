@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "firebase": "^4.1.3"
+    "firebase": "^4.1.3",
+    "moment": "^2.18.1"
   }
 }

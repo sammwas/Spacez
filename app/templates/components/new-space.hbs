@@ -25,6 +25,15 @@
       <label for="seat">SEATS AVAILABLE</label>
       {{input value=seat id="seat" class="form-control"}}
     </div>
+    <div class="form-group">
+       <label for="latitude">Latitude</label>
+       {{input value=latitude id="latitude"}}
+     </div>
+
+     <div class="form-group">
+       <label for="longitude">Longitude</label>
+       {{input value=longitude id="longitude"}}
+     </div>
     <button {{action 'saveSpace'}} class="btn btn-info">Save</button>
   </form>
 </div>

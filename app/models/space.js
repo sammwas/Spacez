@@ -7,6 +7,8 @@ export default DS.Model.extend({
     image: DS.attr(),
     price: DS.attr('number'),
     seat: DS.attr('number'),
+    latitude: DS.attr('number'),
+    longitude: DS.attr('number'),
     reviews:DS.hasMany('review',{async:true}),
     bookings:DS.hasMany('booking',{async:true})
 });
