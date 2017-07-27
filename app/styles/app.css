@@ -4,13 +4,13 @@
 }
 
 .mainpanel {
-  background-image: url("/assets/images/office1.jpg");
+  background-image: url("https://images.pexels.com/photos/16347/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
-  font-size: 29px;
+  color: black;
+  font-size: 25px;
 }
 
 #head {
@@ -93,23 +93,20 @@ font-size: 25px;
   font-size: 40px;
 }
 .first-row{
-background-image: url("/assets/images/laptop.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-origin:inherit;
-height: 300px;
-color: white;
+
+color: black;
+
 }
 .intro{
   margin-top: 130px;
 }
 .belief{
   font-size: 23px;
+  color: 	#FF4500;
 }
 .homeimage{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -117,4 +114,22 @@ color: white;
 
 .second-row{
   padding-top: 20px;
+}
+.featured{
+  margin-top: 20px;
+
+}
+.featureimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:300px;
+  height: 300px;
+}
+.host{
+  font-size: 20px;
+}
+.spaceimage{
+  height: 200px;
+  width: 300px;
 }

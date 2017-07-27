@@ -5,7 +5,7 @@ export default Ember.Component.extend({
   actions: {
     showSpaceForm(){
       this.set('addNewSpace',true);
-      
+
     },
     saveSpace(){
     var params= {
@@ -13,7 +13,8 @@ export default Ember.Component.extend({
       location:  this.get('location'),
       description: this.get('description'),
       image: this.get('image'),
-      price: this.get('price')
+      price: this.get('price'),
+      seat: parseInt(this.get('seat')),
     };
     this.set('addNewSpace',false);
     this.sendAction("saveSpace",params);

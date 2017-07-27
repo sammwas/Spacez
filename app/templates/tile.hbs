@@ -1,3 +1,14 @@
+<div class="row well">
 {{space-detail space=model}}
-
+</div>
+<div class="row">
+  <div class="col-md-6">
 {{new-review saveReview="saveReview" space=model}}
+</div>
+<div class="col-md-6">
+{{new-booking saveBooking="saveBooking" space=model}}
+</div>
+</div>
+<div class="row well">
+  {{location-map area=space.location}}
+</div>
