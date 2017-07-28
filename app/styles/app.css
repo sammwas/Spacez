@@ -5,7 +5,8 @@
 }
 
 .theamenities{
-  margin-right: 100px;
+  margin-right: 60px;
+
 }
 .map-display{
   width: auto;
@@ -185,7 +186,7 @@ color: white;
 .amenities{
   margin-left: 130px;
   margin-right: 100px;
-  
+
 }
 .basket{
   margin-left: 50px;
@@ -4572,11 +4573,8 @@ img{
 
 
 }
-.footerwords{
-  margin-top: 50px;
-}
+
 .spaceimage{
   height: 200px;
   width:100%;
 }
->>>>>>> 8a8b8a00019c06a9bb2fdbc0111772af6619a384
