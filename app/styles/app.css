@@ -183,11 +183,13 @@ color: white;
   width:26px;
 }
 .amenities{
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-left: 130px;
+  margin-right: 100px;
+  
 }
 .basket{
-  padding-left: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 img{
   /* Grow */
