@@ -1,7 +1,4 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
 .about {
   font-family: 'Artifika', serif;
   font-size:20px;
@@ -10,7 +7,7 @@ html, body {
 }
 .map-display{
   width: auto;
-  height: 600px;
+  height: 300px;
 }
 
 
