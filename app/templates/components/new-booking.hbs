@@ -1,11 +1,11 @@
 {{#if addBooking}}
 <form>
   <div class="form-group">
-    <label for="reserve">ENTER NUMBER OF SEATS TO BOOK</label>
+    <label for="reserve" class="about">ENTER NUMBER OF SEATS TO BOOK</label>
     {{input value=reserve id="reserve" class="form-control"}}
   </div>
-  <button {{action 'saveBooking'}}>SAVE BOOKING</button>
+  <button {{action 'saveBooking'}} class="btn btn-info hvr-grow">SAVE BOOKING</button>
 </form>
 {{else}}
-<button class="btn btn-info" {{action 'toggleBooking'}}>BOOK SPACE</button>
+<button class="btn btn-info hvr-grow" {{action 'toggleBooking'}}>BOOK SPACE</button>
 {{/if}}

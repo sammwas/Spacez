@@ -3,19 +3,21 @@
 </div>
 <div class="row">
 
-  <div class="col-md-4">
-    <h2 class="text-center about">About the space</h2>
-    <p class="about text-center">{{space.description}}</p>
-    <h2 class="text-center about">Prices</h2>
-    <p class="about text-center">KSH{{space.price}}</p>
-    <h2 class="text-center about">Location</h2>
-    <p class="about text-center">{{space.location}}</p>
+  <div class="col-md-6">
+    <h1 class="text-center about">ABOUT THE SPACE</h1>
+    <hr>
+    <p class="welcome text-center">{{space.description}}</p>
+    <hr>
+    <h1 class="text-center about">PRICE PER DAY</h1>
+    <p class="welcome text-center">KSH{{space.price}}</p>
+    <h1 class="text-center about">LOCATION</h1>
+    <p class="welcome text-center">{{space.location}}</p>
 
 
   </div>
-  <div class="col-md-8">
-    <h2 class="text-center about">photos of the work-spaces</h2>
-    <img src= {{space.image}} alt="space1" class="img-responsive detail-image">
+  <div class="col-md-6">
+    <h2 class="text-center about">PHOTOS OF THE WORKSPACE</h2>
+    <img src= {{space.image}} alt="space1" class="hvr-grow-shadow img-responsive detail-image">
 
   </div>
 </div><br>
@@ -24,17 +26,17 @@
 
 <!-- amenities row display -->
 <div class="row well">
-  <div class="reviews">
-    <strong>Reviews</strong>
+  <div class="col-md-6">
+    <h1 class="text-center about">REVIEWS</h1>
     {{#each space.reviews as |review|}}
       {{review-tile review=review}}
     {{/each}}
   </div>
+  <div class="col-md-6">
+    <h1 class="text-center about">SEATS BOOKED</h1>
+    {{#each space.bookings as |booking|}}
+      <h2>{{booking.reserve}}</h2>
+    {{/each}}
+  </div>
 
-</div>
-<div class="row">
-  <h2 class="welcome">SEATS BOOKED</h2>
-  {{#each space.bookings as |booking|}}
-    <h2>{{booking.reserve}}</h2>
-  {{/each}}
 </div>

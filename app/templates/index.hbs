@@ -27,7 +27,7 @@
     <div class=" col-md-4 featuredcol">
       {{#link-to 'tile' space.id}}
         <h2 class="text-center about">{{space.name}}</h2>
-        <img src= {{space.image}} class="img-responsive featureimage img-rounded"/>
+        <img src= {{space.image}} class="img-responsive featureimage img-rounded hvr-grow-shadow"/>
       {{/link-to}}
     </div>
   {{/each}}
@@ -136,18 +136,4 @@
     <p class="text-center belief about">connect with others2</p>
   </div>
   <hr>
-</div>
-
-<div class="row featured">
-  <h1 class="text-center about">FEATURED WORKSPACES</h1>
-  {{#each model as |space|}}
-  <div class=" col-md-4 featuredcol">
-    {{space-cost space}}
-    {{#link-to 'tile' space.id}}
-  <h2 class="text-center about">{{space.name}}</h2>
-  <img src={{space.image}} class="img-responsive featureimage img-rounded"/>
-  {{/link-to}}
-</div>
-  {{/each}}
-
 </div>
