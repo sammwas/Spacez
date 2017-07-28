@@ -8,6 +8,10 @@ html, body {
 
 
 }
+.map-display{
+  width: auto;
+  height: 600px;
+}
 
 
 .mainpanel {
