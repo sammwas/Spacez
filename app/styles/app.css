@@ -2,8 +2,10 @@
 .about {
   font-family: 'Artifika', serif;
   font-size:20px;
+}
 
-
+.theamenities{
+  margin-right: 100px;
 }
 .map-display{
   width: auto;
@@ -24,6 +26,9 @@
   display: block;
     margin-left: auto;
     margin-right: auto
+}
+.spacez{
+  font-family: 'Abril Fatface', cursive;
 }
 .aboutpic2{
   width: 400px;
@@ -122,7 +127,7 @@ padding-bottom: 10px;
 
   font-size: 40px;
   color: white;
-  float: left;
+  margin-top: 100px;
 }
 .first-row{
 
@@ -159,7 +164,7 @@ color: white;
 .about-intro{
   color:white;
   font-size: 120px;
-  font-family: 'Alfa Slab One', cursive;
+
   margin-top: 0px !important;
   margin-left: 0px !important;
 
